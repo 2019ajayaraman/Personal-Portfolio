@@ -1,0 +1,102 @@
+html{
+  font-family: "Poiret One"
+
+}
+
+#navbar{
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #B8D8D8;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align:center;
+}
+
+
+#welcome-section {
+  text-align: center;
+  line-height: 5px;
+  padding-top: 40vh;
+  background-color: #B8D8D8;
+  min-height: 60vh;
+  margin-left: -30px;
+  min-width: 100vw;
+  top: 0;
+  x = 0;
+  overflow-x: hidden;
+}
+
+#labels{
+  text-align: center;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+#stuff {
+  text-align: right;
+}
+
+#projects {
+  text-align: center;
+  line-height: 5px;
+  background-color: #7A9E9F;
+  padding-top: 100px;
+  min-height: 60vh;
+  margin-left: -30px;
+  min-width: 100vw;
+  top: 0;
+  x = 0;
+  overflow-x: hidden;
+}
+
+#labels{
+  text-align: center;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+#other {
+  color: white;
+  text-align: center;
+  line-height: 5px;
+  background-color: #4F6367;
+  padding-top: 50px;
+  min-height: 60vh;
+  margin-left: -30px;
+  min-width: 100vw;
+  top: 0;
+  x = 0;
+  overflow-x: hidden;
+}
+
+.project-tile{
+  text-align: center;
+  margin: 20px;
+  padding-top: 50px;
+  display: inline-block;
+  width: 15vw;
+  height: 15vh;
+  line-height: 20px;
+  vertical-align: middle;
+  border-radius: 10%;
+
+}
+#tiles{
+  padding: 10px;
+  margin: 20px;
+  padding-top: 30px;
+}
+
+
+@media (max-width: 800px) {
+
+  html {
+    min-width: 800px;
+  }
+}
+
+ 
